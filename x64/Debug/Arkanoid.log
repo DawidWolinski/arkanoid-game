@@ -1,0 +1,35 @@
+﻿  boss_closing.cpp
+  boss_death.cpp
+  boss_idle.cpp
+  boss_opening.cpp
+  boss_shooting.cpp
+  engine.cpp
+  final_level.cpp
+  game_over.cpp
+  gameplay.cpp
+C:\C++\Arkanoid\src\game_states\gameplay.cpp(291,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main_menu.cpp
+C:\C++\Arkanoid\src\game_states\main_menu.cpp(216,59): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  scoreboard.cpp
+C:\C++\Arkanoid\src\game_states\scoreboard.cpp(136,53): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  toss_coin.cpp
+  gameplay_menu.cpp
+C:\C++\Arkanoid\src\gameplay_menu.cpp(78,37): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  level.cpp
+C:\C++\Arkanoid\src\level.cpp(89,31): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\C++\Arkanoid\src\level.cpp(131,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+  ball.cpp
+  bonus.cpp
+  boss.cpp
+  brick.cpp
+  paddle.cpp
+  Generating Code...
+  Compiling...
+  paddle_death.cpp
+  paddle_spawn.cpp
+  paddle_standard.cpp
+  paddle_transformation.cpp
+  upper_interface.cpp
+  Generating Code...
+  Arkanoid.vcxproj -> C:\C++\Arkanoid\x64\Debug\Arkanoid.exe

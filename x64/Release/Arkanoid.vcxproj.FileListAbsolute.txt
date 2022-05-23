@@ -1,0 +1,1 @@
+C:\C++\Arkanoid\x64\Release\Arkanoid.exe
