@@ -1,4 +1,17 @@
-# arkanoid-game
+## Arkanoid
+
+This is a clone of Arkanoid, an arcade game released in 1986 by Taito where the player uses a paddle to bounce the ball and break the bricks on the map. It was written in C++ using SFML. 
+
+### Content
+The objective was to make a clone that is nearly identical to the original game. It contains all 33 levels, including the boss fight and other features such as power-ups. 
+
+In the original Arkanoid, upon losing all health points the player could continue the game by tossing additional coins into the arcade machine. While it is not a good idea to do it on a modern computer, the screen with message about tossing the coin inside is still displayed to pay homage to the original game. However, to compensate this, there is an option to save the progress and continue playing later on. 
+
+Currently the missing features which were present in 1986 version are enemies, as well as intro and outro cutscenes. They might be, however, added in the future.
+
+
+
+### Screenshots
 <p align="middle">
   <img src="https://user-images.githubusercontent.com/45266505/142075887-43036ddd-48ad-426c-b237-0b9168293075.png" width=40% height=40%>
   <img src="https://user-images.githubusercontent.com/45266505/142075993-9668e848-66e2-4f8b-86a7-64f181f890c5.png" width=40% height=40%>
