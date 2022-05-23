@@ -9,8 +9,8 @@ This is a clone of Arkanoid, an arcade game released in 1986 by Taito Corporatio
 In order to compile the source code it is necessary to install the SFML:
 1. Download from: https://www.sfml-dev.org/download/sfml/2.5.1/. 
 2. In the compiler properties add path to: 
-  - SFML headers (i.e. C:\SFML-2.5.1\include)
-  - SFML libraries (i.e. C:\SFML-2.5.1\bin)
+    - SFML headers (i.e. C:\SFML-2.5.1\include)
+    - SFML libraries (i.e. C:\SFML-2.5.1\bin)
 3. In the compile properties link the application to the SFML .lib files. The required .lib files are: "sfml-graphics.lib", "sfml-window.lib", "sfml-system.lib" and "sfml-audio.lib". The files for debugging contain "-d" suffix (i.e. "sfml-graphics-d.lib").
 4. The "src" directory already contains DLL files, however if you wish to use a different version of SFML than "Visual C++ 15 (2017) - 64-bit" then the DLL files will have to be replaced. 
 5. Run the "main.cpp" file.
