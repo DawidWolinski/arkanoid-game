@@ -4,7 +4,6 @@ This is a clone of Arkanoid, an arcade game released in 1986 by Taito Corporatio
 
 ### How to start
 **Compiling**
-
 In order to compile the source code it is necessary to install the SFML:
 1. Download from: https://www.sfml-dev.org/download/sfml/2.5.1/. 
 2. In the compiler properties add path to: 
@@ -15,9 +14,8 @@ In order to compile the source code it is necessary to install the SFML:
 5. Run the "main.cpp" file.
 
 Official SFML installation guide can be found here: https://www.sfml-dev.org/tutorials/2.5/start-vc.php.__
-
+<br>
 **Executable file**
-
 Download the 'Release' folder (arkanoid-game/x64/Release) and open "Arkanoid.exe".
 
 ### How to play
