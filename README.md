@@ -4,6 +4,7 @@ This is a clone of Arkanoid, an arcade game released in 1986 by Taito Corporatio
 
 ### How to start
 **Compiling**
+
 In order to compile the source code it is necessary to install the SFML:
 1. Download from: https://www.sfml-dev.org/download/sfml/2.5.1/. 
 2. In the compiler properties add path to: 
@@ -13,7 +14,8 @@ In order to compile the source code it is necessary to install the SFML:
 4. The "src" directory already contains DLL files, however if you wish to use a different version of SFML than "Visual C++ 15 (2017) - 64-bit" then the DLL files will have to be replaced. 
 
 **Executable file**
-Download the 'Release' folder (arkanoid-game/x64/Release) and open 'Arkanoid.exe'.
+
+Download the 'Release' folder (arkanoid-game/x64/Release) and open "Arkanoid.exe".
 
 ### How to play
 Use left and right arrows (or A and D) to move the paddle and bounce the ball. Use spacebar to shoot when 'Laser' power-up is active or to release the ball when 'Catch' power-up is active. Other information about how to play can be found here:
