@@ -41,9 +41,12 @@ In the original Arkanoid, upon losing all health points the player could continu
 Currently the missing features which were present in 1986 version are enemies, as well as intro and outro cutscenes. They might be, however, added in the future.
 
 
-<p align="center">
-## Screenshots
-</p>
+<div align="center">
+    
+    ## Screenshots
+    
+</div>
+
 <p align="middle">
   <img src="https://user-images.githubusercontent.com/45266505/142075887-43036ddd-48ad-426c-b237-0b9168293075.png" width=40% height=40%>
   <img src="https://user-images.githubusercontent.com/45266505/142075993-9668e848-66e2-4f8b-86a7-64f181f890c5.png" width=40% height=40%>
