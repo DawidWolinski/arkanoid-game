@@ -24,10 +24,14 @@ Official SFML installation guide can be found here: https://www.sfml-dev.org/tut
 Run "Arkanoid.exe" in the "Release" directory (arkanoid-game/x64/Release). The "assets" and "data" folders need to be in the same directory as the executable file.
 
 ## Architecture
-The application is organised using Finite-state machine (FSM) design pattern. Each part of the game is a separate state and depending on each state, it behaves differently when it comes to event handling, updating and displaying objects (which are three core functions in the game loop). Switching between states is handled by "StateMachine" class which either replaces current state with a new one or adds new state to the stack. The game engine also contains "AssetManager" responsible for loading textures, sounds and font.
+The application is organised using Finite-state machine (FSM) design pattern. Each part of the game is a separate state and depending on each state, it behaves differently when it comes to event handling, updating and displaying objects (which are three core functions in the game loop). Switching between states is handled by "StateMachine" class which either replaces current state with a new one or adds new state to the stack. 
+
+The game engine also contains "AssetManager" responsible for loading textures, sounds and font.
 
 ## How to play
-Use left and right arrows (or A and D) to move the paddle and bounce the ball. Use spacebar to shoot when 'Laser' power-up is active or to release the ball when 'Catch' power-up is active. Other information about how to play can be found here: https://strategywiki.org/wiki/Arkanoid/Gameplay
+Use left and right arrows (or A and D) to move the paddle and bounce the ball. Use spacebar to shoot when 'Laser' power-up is active or to release the ball when 'Catch' power-up is active. 
+
+Other information on how to play can be found here: https://strategywiki.org/wiki/Arkanoid/Gameplay
 
 ## Content
 The objective was to make a clone that is nearly identical to the original game. It contains all 33 levels, including the boss fight and other features such as power-ups. 
