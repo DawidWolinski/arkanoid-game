@@ -13,7 +13,7 @@ In order to compile the source code it is necessary to install the SFML:
 4. The "src" directory already contains DLL files, however if you wish to use a different version of SFML than "Visual C++ 15 (2017) - 64-bit" then the DLL files will have to be replaced. 
 5. Run the "main.cpp" file.
 
-Official SFML installation guide can be found here: https://www.sfml-dev.org/tutorials/2.5/start-vc.php.__
+Official SFML installation guide can be found here: https://www.sfml-dev.org/tutorials/2.5/start-vc.php.
 <br>
 **Executable file**
 Download the 'Release' folder (arkanoid-game/x64/Release) and open "Arkanoid.exe".
