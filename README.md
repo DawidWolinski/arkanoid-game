@@ -13,12 +13,15 @@ In order to compile the source code it is necessary to install the SFML:
 3. In the compile properties link the application to the SFML .lib files. The required .lib files are: "sfml-graphics.lib", "sfml-window.lib", "sfml-system.lib" and "sfml-audio.lib". The files for debugging contain "-d" suffix (i.e. "sfml-graphics-d.lib")
 4. The "src" directory already contains DLL files, however if you wish to use a different version of SFML than "Visual C++ 15 (2017) - 64-bit" then the DLL files will have to be replaced. 
 
+Official SFML installation guide can be found here: https://www.sfml-dev.org/tutorials/2.5/start-vc.php.
+
+
 **Executable file**
 
 Download the 'Release' folder (arkanoid-game/x64/Release) and open "Arkanoid.exe".
 
 ### How to play
-Use left and right arrows (or A and D) to move the paddle and bounce the ball. Use spacebar to shoot when 'Laser' power-up is active or to release the ball when 'Catch' power-up is active. Other information about how to play can be found here:
+Use left and right arrows (or A and D) to move the paddle and bounce the ball. Use spacebar to shoot when 'Laser' power-up is active or to release the ball when 'Catch' power-up is active. Other information about how to play can be found here: https://strategywiki.org/wiki/Arkanoid/Gameplay
 
 ### Content
 The objective was to make a clone that is nearly identical to the original game. It contains all 33 levels, including the boss fight and other features such as power-ups. 
