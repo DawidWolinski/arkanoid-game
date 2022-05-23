@@ -1,8 +1,9 @@
-## Arkanoid
+About
+=====
 
 This is a clone of Arkanoid, an arcade game released in 1986 by Taito Corporation where the player uses a paddle to bounce the ball and break the bricks on the map. It was written in C++ using SFML. 
 
-### How to start
+## How to start
 **Compiling**
 
 In order to compile the source code it is necessary to install the SFML:
@@ -22,13 +23,13 @@ Official SFML installation guide can be found here: https://www.sfml-dev.org/tut
 
 Run "Arkanoid.exe" in the "Release" directory (arkanoid-game/x64/Release). The "assets" and "data" folders need to be in the same directory as the executable file.
 
-### Architecture
+## Architecture
 The application is organised using Finite-state machine (FSM) design pattern. Each part of the game is a separate state and depending on each state, it behaves differently when it comes to event handling, updating and displaying objects (which are three core functions in the game loop). Switching between states is handled by "StateMachine" class which either replaces current state with a new one or adds new state to the stack. The game engine also contains "AssetManager" responsible for loading textures, sounds and font.
 
-### How to play
+## How to play
 Use left and right arrows (or A and D) to move the paddle and bounce the ball. Use spacebar to shoot when 'Laser' power-up is active or to release the ball when 'Catch' power-up is active. Other information about how to play can be found here: https://strategywiki.org/wiki/Arkanoid/Gameplay
 
-### Content
+## Content
 The objective was to make a clone that is nearly identical to the original game. It contains all 33 levels, including the boss fight and other features such as power-ups. 
 
 In the original Arkanoid, upon losing all health points the player could continue the game by tossing additional coins into the arcade machine. While it is not a good idea to do it on a modern computer, the screen with message about tossing the coin inside is still displayed to pay homage to the original game. However, to compensate this, there is an option to save the progress and continue playing later on. 
@@ -37,7 +38,7 @@ Currently the missing features which were present in 1986 version are enemies, a
 
 
 
-### Screenshots
+## Screenshots
 <p align="middle">
   <img src="https://user-images.githubusercontent.com/45266505/142075887-43036ddd-48ad-426c-b237-0b9168293075.png" width=40% height=40%>
   <img src="https://user-images.githubusercontent.com/45266505/142075993-9668e848-66e2-4f8b-86a7-64f181f890c5.png" width=40% height=40%>
