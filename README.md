@@ -16,8 +16,9 @@ In order to compile the source code it is necessary to install the SFML:
 <p>
 Official SFML installation guide can be found here: https://www.sfml-dev.org/tutorials/2.5/start-vc.php.
 <br>
-<br>
-**Executable file**</p>
+</p>
+**Executable file**
+
 Download the 'Release' folder (arkanoid-game/x64/Release) and open "Arkanoid.exe".
 
 ### How to play
