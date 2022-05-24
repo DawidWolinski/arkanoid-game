@@ -386,7 +386,7 @@ void GameplayState::checkGameState(const float& dt)
                 level->createLevel(bricks, background, hp_sprite);
             // Last level
             else if (level->number == level->standard_level_count - 1)
-                data->state_machine.addState(StateRef(new StanBoss(data, hp)), true);
+                data->state_machine.addState(StateRef(new BossState(data, hp)), true);
 
             reset();   
         }

@@ -237,8 +237,8 @@ void MenuState::selectOption()
 	switch (option_index)
 	{
 	case 0:			// New game
-		data->state_machine.addState(std::move(StateRef(new GameplayState(data, false))));
-		//data->state_machine.addState(StateRef(new StanBoss(data, 5)), true);
+		//data->state_machine.addState(std::move(StateRef(new GameplayState(data, false))));
+		data->state_machine.addState(StateRef(new BossState(data, 5)), true);
 		//data->state_machine.dodajStan(StateRef(new StanIntro(data)), true);
 		break;
 	case 1:			// Continue saved game

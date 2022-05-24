@@ -8,12 +8,12 @@
 #include "../objects/boss.h"
 #include "toss_coin.h"
 
-class StanBoss : public State
+class BossState : public State
 {
 public:
 
 	//Konstruktor
-	StanBoss(GameDataRef data, int hp);
+	BossState(GameDataRef data, int hp);
 
 	//Funkcje
 	void initialise() override;

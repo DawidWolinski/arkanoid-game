@@ -1,13 +1,13 @@
 #include "final_level.h"
 #include "../paddle_animation_states/paddle_animation.h"
 
-StanBoss::StanBoss(GameDataRef data, int hp)
+BossState::BossState(GameDataRef data, int hp)
     : wait_time(0.f), hp(hp), score(data->upper_interface.getScore()), NoDirection(Direction::NoDirection), data(data)
 {
 
 }
 
-void StanBoss::initialise()
+void BossState::initialise()
 {
     data->asset_manager.loadTexture("boss_texture", BOSS_TEXTURE_FILE);
     data->asset_manager.loadTexture("paddle_texture", PADDLE_TEXTURE_FILE);
@@ -27,7 +27,7 @@ void StanBoss::initialise()
     boss = std::make_unique<Boss>(data, frame->getPosition());
 }
 
-void StanBoss::loadSounds()
+void BossState::loadSounds()
 {
     data->asset_manager.loadSound("boss_bounce_sound", BOSS_BOUNCE_SOUND_FILE);
     data->asset_manager.loadSound("boss_death_sound", BOSS_DEATH_SOUND_FILE);
@@ -43,7 +43,7 @@ void StanBoss::loadSounds()
     data->asset_manager.getMusic("outro_sound")->setVolume(25.f);
 }
 
-void StanBoss::handleEvents(const float& dt)
+void BossState::handleEvents(const float& dt)
 {
     // Paddle movement
     if (player->is_moving && !menu->active)
@@ -108,7 +108,7 @@ void StanBoss::handleEvents(const float& dt)
     }
 }
 
-void StanBoss::checkCollisions()
+void BossState::checkCollisions()
 {
     // Ball collision
     for (auto& ball : balls)
@@ -176,7 +176,7 @@ void StanBoss::checkCollisions()
 
 }
 
-void StanBoss::checkGameState(const float& dt)
+void BossState::checkGameState(const float& dt)
 {
     // If boss or player died
     if (player->getGlobalBounds().left >= WIDTH)
@@ -210,7 +210,7 @@ void StanBoss::checkGameState(const float& dt)
     }
 }
 
-void StanBoss::reset()
+void BossState::reset()
 {
     balls.push_back(std::make_unique<Ball>(data));
     player.reset();
@@ -218,7 +218,7 @@ void StanBoss::reset()
     wait_time = 0.f;
 }
 
-void StanBoss::update(const float& dt)
+void BossState::update(const float& dt)
 {
     if (!menu->active)
     {
@@ -241,7 +241,7 @@ void StanBoss::update(const float& dt)
     data->upper_interface.update(dt);
 }
 
-void StanBoss::draw(const float& dt)
+void BossState::draw(const float& dt)
 {
     data->window.clear();
 
