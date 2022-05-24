@@ -23,11 +23,6 @@ Official SFML installation guide can be found here: https://www.sfml-dev.org/tut
 
 Run "Arkanoid.exe" in the "Release" directory (arkanoid-game/x64/Release). The "assets" and "data" folders need to be in the same directory as the executable file.
 
-## Architecture
-The application is organised using Finite-state machine (FSM) design pattern. Each part of the game is a separate state and depending on each state, it behaves differently when it comes to event handling, updating and displaying objects (which are three core functions in the game loop). Switching between states is handled by "StateMachine" class which either replaces current state with a new one or adds new state to the stack. 
-
-The game engine also contains "AssetManager" class responsible for loading textures, sounds and font.
-
 ## How to play
 Use left and right arrows (or A and D) to move the paddle and bounce the ball. Use spacebar to shoot when 'Laser' power-up is active or to release the ball when 'Catch' power-up is active. 
 
