@@ -21,7 +21,7 @@ Official SFML installation guide can be found here: https://www.sfml-dev.org/tut
 \
 **Executable file**
 
-Run "Arkanoid.exe" in the "Release" directory (arkanoid-game/x64/Release). The "assets" and "data" folders need to be in the same directory as the executable file.
+Download "play_game" folder and run "Arkanoid.exe".
 
 ## How to play
 Use left and right arrows (or A and D) to move the paddle and bounce the ball. Use spacebar to shoot when 'Laser' power-up is active or to release the ball when 'Catch' power-up is active. 
