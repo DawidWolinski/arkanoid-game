@@ -33,7 +33,7 @@ The objective was to make a clone that is nearly identical to the original game.
 
 In the original Arkanoid, upon losing all health points the player could continue the game by tossing additional coins into the arcade machine. While it is not a good idea to do it on a modern computer, the screen with message about tossing the coin inside is still displayed to pay homage to the original game. However, to compensate this, there is an option to save the progress and continue playing later on. 
 
-Currently the missing features which were present in 1986 version are enemies, as well as intro and outro cutscenes. They might be, however, added in the future.
+Currently the missing features which were present in 1986 version are enemies, as well as intro and outro cutscenes. They might be added in the future.
 
 
 ## Screenshots
