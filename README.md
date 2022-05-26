@@ -4,6 +4,12 @@ About
 This is a clone of Arkanoid, an arcade game released in 1986 by Taito Corporation where the player uses a paddle to bounce the ball and break the bricks on the map. It was written in C++ using SFML. 
 
 ## How to start
+**Executable file**
+
+Download "play_game" folder and run "Arkanoid.exe".
+\
+\
+\
 **Compiling**
 
 In order to compile the source code it is necessary to install the SFML:
@@ -16,12 +22,6 @@ In order to compile the source code it is necessary to install the SFML:
 5. Run the "main.cpp" file.
 
 Official SFML installation guide can be found here: https://www.sfml-dev.org/tutorials/2.5/start-vc.php.
-\
-\
-\
-**Executable file**
-
-Download "play_game" folder and run "Arkanoid.exe".
 
 ## How to play
 Use left and right arrows (or A and D) to move the paddle and bounce the ball. Use spacebar to shoot when 'Laser' power-up is active or to release the ball when 'Catch' power-up is active. 
