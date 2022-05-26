@@ -9,7 +9,6 @@ This is a clone of Arkanoid, an arcade game released in 1986 by Taito Corporatio
 Download "play_game" folder and run "Arkanoid.exe".
 \
 \
-\
 **Compiling**
 
 In order to compile the source code it is necessary to install the SFML:
