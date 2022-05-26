@@ -6,7 +6,7 @@ This is a clone of Arkanoid, an arcade game released in 1986 by Taito Corporatio
 ## How to start
 **Executable file**
 
-Download "play_game" folder and run "Arkanoid.exe".
+Navigate to "play_game" directory and run "Arkanoid.exe".
 \
 \
 **Compiling**
