@@ -30,7 +30,7 @@ Other information on how to play can be found here: https://strategywiki.org/wik
 ## Content
 The objective was to make a clone that is nearly identical to the original game. It contains all 33 levels, including the boss fight and other features such as power-ups. 
 
-In the original Arkanoid, upon losing all health points the player could continue the game by tossing additional coins into the arcade machine. While it is not a good idea to do it on a modern computer, the screen with message about tossing the coin inside is still displayed to pay homage to the original game. However, to compensate this, there is an option to save the progress and continue playing later on. 
+In the original Arkanoid, upon losing all health points the player could continue the game by tossing additional coins into the arcade machine. Although inserting money into your computer is not the best idea, the screen with message about tossing the coin inside is still displayed to pay homage to the original game. However, to compensate this, there is an option to save the progress and continue playing later on. 
 
 Currently the missing features which were present in 1986 version are enemies, as well as intro and outro cutscenes. They might be added in the future.
 
